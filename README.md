@@ -1,12 +1,16 @@
 # 项目文档
 
-项目文档
+## 1. 测试运行结果
 
-## 项目资源来源
+## 2. 项目资源来源
 
-## [项目API](./大作业API.md)
 
-## 前端安装指南
+
+## [3. 项目API](./大作业API.md)
+
+## 4. 安装指南
+
+### 4.1 前端安装指南
 
 将项目clone到本地后，使用指令安装依赖
 ```
@@ -38,7 +42,7 @@ port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free
     },
 ```
 
-## 后端安装指南
+### 4.2 后端安装指南
 
 命令行输入如下指令进行安装：
 
@@ -52,7 +56,7 @@ port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free
 >> backend.exe
 ```
 
-## 项目成员及成员小结
+## 5. 项目成员及成员小结
 - [李志信](./李志信.md)
 - [洪燊](./洪燊.md)
 - [...](./)
