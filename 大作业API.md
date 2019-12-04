@@ -2,7 +2,7 @@
 
 ## Overview
 
-Ⅰ. [Schema](##schema)
+Ⅰ. [Schema](#jump)
 
 Ⅱ. [Authentication & Client Errors](##authentication-&-client-Errors)
 
@@ -12,7 +12,7 @@
 
 
 
-## Schema 
+## <span id="jump">Schema</span>
 
 所有的API都通过HTTPS访问，所有数据都以`JSON`的格式传输。默认通过通过本地ip地址`127.0.0.1`访问，端口为`8080`，可在文件config/index.js中修改连接API的根url，例：
 
