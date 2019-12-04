@@ -2,17 +2,17 @@
 
 ## Overview
 
-Ⅰ. [Schema](#jump)
+Ⅰ.  [Schema](#schema)
 
-Ⅱ. [Authentication & Client Errors](##authentication-&-client-Errors)
+Ⅱ. [Authentication & Client Errors](#authentication)
 
-Ⅲ. [HTTP Verbs](##http-verbs)
+Ⅲ. [HTTP Verbs](#http)
 
-Ⅳ. [APIs](##apis)
+Ⅳ. [APIs](#apis)
 
 
 
-## <span id="jump">Schema</span>
+## <span id="schema">Schema</span>
 
 所有的API都通过HTTPS访问，所有数据都以`JSON`的格式传输。默认通过通过本地ip地址`127.0.0.1`访问，端口为`8080`，可在文件config/index.js中修改连接API的根url，例：
 
@@ -34,7 +34,7 @@
 
 
 
-## Authentication & Client Errors
+## <span id="authentication">Authentication & Client Errors</span>
 
 用户登录请求可以使用header中的token或者body中的账户信息进行验证。
 
@@ -53,7 +53,7 @@
 
 
 
-## HTTP Verbs
+## <span id="http">HTTP Verbs</span>
 
 | Verb   | Description                                        |
 | ------ | -------------------------------------------------- |
@@ -63,7 +63,7 @@
 
 
 
-## APIs
+## <span id="apis">APIs</span>
 
 ### 用户创建 [url: /signup]
 
